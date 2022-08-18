@@ -48,5 +48,6 @@
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5"
-  }
+  },
+  "license": "MIT"
 }
