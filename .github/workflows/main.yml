@@ -40,3 +40,4 @@ jobs:
           GIHUB_TOKEN: ${{ secrets.TOKEN_GH_STORYBOOK }}
           NPM_TOKEN: ${{ secrets.TOKEN_NPM_STORYBOOK }}
         run: npx semantic-release
+ 
