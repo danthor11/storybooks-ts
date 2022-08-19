@@ -1,0 +1,29 @@
+/// <reference types="react" />
+import "./myLabel.css";
+export interface Props {
+    /**
+     *  This is the text that contain the component
+     */
+    label: string;
+    /**
+     * This is the size of the component
+     */
+    size: "normal" | "h1" | "h2" | "h3";
+    /**
+     * if you want all text capitalized
+     */
+    allCaps?: boolean;
+    /**
+     * Basic colors
+     */
+    color?: "primary" | "secondary" | "tertiary";
+    /**
+     * Custom font's color
+     */
+    fontColor?: string;
+    /**
+     *  Background color
+     */
+    backgroundColor: string;
+}
+export declare const MyLabel: ({ allCaps, backgroundColor, color, fontColor, label, size }: Props) => JSX.Element;

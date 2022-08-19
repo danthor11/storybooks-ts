@@ -1,7 +1,7 @@
 import React from 'react'
 import "./myLabel.css"
 
-interface Props {
+export interface Props {
   /**
    *  This is the text that contain the component
    */
