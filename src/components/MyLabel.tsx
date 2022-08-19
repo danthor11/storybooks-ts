@@ -32,7 +32,7 @@ export interface Props {
   backgroundColor: string
 }
 
-export const MyLabel = ({
+const MyLabel = ({
   allCaps = false,
   backgroundColor = "transparent",
   color = "primary",
@@ -49,3 +49,5 @@ export const MyLabel = ({
     </span>
   )
 }
+
+export default MyLabel
