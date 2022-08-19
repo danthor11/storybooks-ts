@@ -1,5 +1,11 @@
-export { Button } from "./stories/Button";
-export { Header } from "./stories/Header";
-export { MyLabel } from "./components/MyLabel";
-export { Page } from "./stories/Page";
+import Button from "./stories/Button";
+import Header  from "./stories/Header";
+import  MyLabel  from "./components/MyLabel";
+import  Page  from "./stories/Page";
 
+export {
+    Button,
+    Header,
+    MyLabel,
+    Page
+}
